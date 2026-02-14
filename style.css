@@ -312,3 +312,43 @@ footer{
   }
 
 }
+/* ================= FLOATING CONTACT BUTTONS ================= */
+
+.float-wrap{
+  position:fixed;
+  bottom:22px;
+  right:22px;
+  display:flex;
+  flex-direction:column;
+  gap:14px;
+  z-index:2000;
+}
+
+.float-btn{
+  width:56px;
+  height:56px;
+  border-radius:50%;
+  display:flex;
+  align-items:center;
+  justify-content:center;
+  box-shadow:0 10px 25px rgba(0,0,0,0.25);
+  transition:0.3s ease;
+}
+
+.float-btn:hover{
+  transform:scale(1.08);
+}
+
+.float-whatsapp{
+  background:#25D366;
+}
+
+.float-call{
+  background:#111;
+  color:white;
+  font-size:22px;
+}
+
+.float-whatsapp img{
+  width:28px;
+}
