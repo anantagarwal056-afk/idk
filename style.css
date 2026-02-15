@@ -331,14 +331,21 @@ border-color: var(--accent-dark);
 }
 
 .float-whatsapp{
-background: var(--gradient-accent);
+background:#ffffff;
 }
 
 .float-call{
-background: var(--accent-dark);
-color:white;
+background:#ffffff;
+color:#111;
 font-size:22px;
 }
+
+/* optional: give both a subtle border */
+
+.float-btn{
+border:1px solid #e0e0e0;
+}
+
 
 .float-whatsapp img{width:28px}
 
