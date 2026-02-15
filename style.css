@@ -1,17 +1,24 @@
 :root{
---bg-main:#f3efe8;
---bg-soft:#e6ddcf;
+
+/* BACKGROUNDS (soft yellow / cream) */
+--bg-main:#fff8ee;        /* main page */
+--bg-soft:#f6ecd9;        /* hero + panels */
 --bg-card:#ffffff;
 
---accent:#8b4a2f;
---accent-light:#b66a45;
+/* BROWNS (like your screenshot) */
+--accent:#7a3a10;         /* primary brown */
+--accent-light:#9a4f1f;  /* hover / lighter brown */
 
---text-dark:#1b1b1b;
---text-muted:#555;
+/* TEXT */
+--text-dark:#0f172a;     /* deep dark (almost navy) */
+--text-muted:#475569;   /* soft gray */
 
---shadow-soft:0 12px 35px rgba(0,0,0,0.08);
+/* EFFECTS */
+--shadow-soft:0 12px 35px rgba(0,0,0,0.12);
 --radius:14px;
+
 }
+
 
 *{box-sizing:border-box;margin:0;padding:0}
 
@@ -41,7 +48,7 @@ color:var(--text-muted);
 nav{
 position:sticky;
 top:0;
-background:#efe4d6;
+background:#fff3dc;
 border-bottom:1px solid #dcc8b2;
 padding:18px 6%;
 display:flex;
