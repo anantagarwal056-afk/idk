@@ -78,19 +78,63 @@ gap:45px;
 
 @media(max-width:768px){
 
-p{
-font-size:15px;
+.menu-toggle{
+display:block;
+font-size:32px;
+cursor:pointer;
+color:var(--accent);
+margin-left:auto;
 }
 
-h2{
-font-size:28px;
+/* RIGHT SLIDE MENU */
+
+.navlinks{
+position:fixed;
+top:0;
+right:-280px;
+height:100vh;
+width:260px;
+background:linear-gradient(180deg,#f6efe6,#efe3d2);
+padding-top:120px;
+display:flex;
+flex-direction:column;
+gap:28px;
+box-shadow:-6px 0 35px rgba(0,0,0,0.2);
+transition:0.4s ease;
 }
 
-.card{
-padding:26px;
+.navlinks.open{
+right:0;
+}
+
+.navlinks a{
+font-size:20px;
+font-weight:600;
+padding-left:32px;
+color:#7a4b2a;
+letter-spacing:.5px;
+}
+
+/* HERO MOBILE */
+
+.hero-inner{
+flex-direction:column;
+}
+
+.hero h1{
+font-size:32px;
+}
+
+.brand span{
+font-size:20px;
+}
+
+.brand img{
+height:40px;
 }
 
 }
+
 
 
 /* NAVBAR */
