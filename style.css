@@ -1,14 +1,18 @@
 :root{
---bg-main:#f6f1e8;
---bg-soft:#efe6d8;
+--bg-main:#f3efe8;          /* warm paper */
+--bg-soft:#e6ddcf;          /* hero background */
 --bg-card:#ffffff;
---accent:#7a4b2a;
---accent-light:#a26a42;
---text-dark:#1c1c1c;
---text-muted:#6d6d6d;
---shadow-soft:0 10px 30px rgba(0,0,0,0.06);
+
+--accent:#8b4a2f;           /* rich brown */
+--accent-light:#b66a45;     /* lighter hover */
+
+--text-dark:#1b1b1b;
+--text-muted:#555;
+
+--shadow-soft:0 12px 35px rgba(0,0,0,0.08);
 --radius:14px;
 }
+
 
 *{box-sizing:border-box;margin:0;padding:0}
 
