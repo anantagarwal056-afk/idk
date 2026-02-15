@@ -227,31 +227,44 @@ transform:none;
 
 @media(max-width:768px){
 
-.menu-toggle{display:block;margin-left:auto}
+.menu-toggle{
+display:block;
+margin-left:auto;
+font-size:32px;
+}
+
+/* RIGHT SLIDE PANEL */
 
 .navlinks{
 position:fixed;
 top:0;
-right:-280px;
+right:-100%;
 height:100vh;
-width:260px;
-background:linear-gradient(180deg,#f6efe6,#efe3d2);
-padding-top:120px;
+width:75%;
+max-width:280px;
+background:linear-gradient(180deg,#f7efe5,#ead9c3);
+padding-top:100px;
 display:flex;
 flex-direction:column;
-gap:28px;
-box-shadow:-6px 0 35px rgba(0,0,0,.2);
-transition:.4s;
+box-shadow:-8px 0 40px rgba(0,0,0,.25);
+transition:.4s ease;
 }
 
-.navlinks.open{right:0}
+.navlinks.open{
+right:0;
+}
+
+/* MENU ITEMS */
 
 .navlinks a{
-font-size:20px;
+font-size:22px;
 font-weight:600;
-padding-left:32px;
+padding:18px 30px;
 color:#7a4b2a;
+border-bottom:1px solid #decbb6;
 }
+
+/* HERO MOBILE */
 
 .hero-inner{flex-direction:column}
 
